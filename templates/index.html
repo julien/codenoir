@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{% block title %}{{ config.title }}{% endblock title %}</title>
+		<style>
+			body {
+				font-family: sans-serif;
+			}
+		</style>
+	</head>	
+	<body>
+	{% block content %}
+		<h1>Welcome</h1> 
+		<hr />
+		<div class="content">
+			<a href="/photos">Photo gallery</a>
+		</dov>
+	{% endblock content %}
+	</body>
+</html>
