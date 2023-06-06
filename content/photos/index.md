@@ -5,4 +5,4 @@ template = "page.html"
 assets = ["pipas.jpg"]
 +++
 
-{{ gallery() }}
+{{ noir_gallery() }}
